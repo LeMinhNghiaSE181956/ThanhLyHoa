@@ -1,27 +1,38 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layout from "./components/layout/Layout"; // Layout tổng thể
-import Home from "./pages/home";  // Trang chủ
-import Login from "./pages/login";  // Trang login
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { UserProvider } from './context/UserContext'; // Import UserProvider
+import Login from './pages/login';
+import Home from './pages/home';
+import Layout from './components/layout/Layout';
+import Register from './pages/register';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Layout />, // Sử dụng Layout tổng thể
+      element: <Layout />,
+      errorElement: <div>404 - Trang không tìm thấy!</div>,
       children: [
         {
-          path: "",         // Trang chính khi vào "/"
-          element: <Home /> // Trang chủ (Home)
+          path: "",
+          element: <Home />,
         },
         {
-          path: "login",    // Trang đăng nhập
-          element: <Login /> // Trang Login
-        }
-      ]
-    }
+          path: "login",
+          element: <Login />,
+        },
+        {
+          path: "register",
+          element: <Register />,
+        },
+      ],
+    },
   ]);
 
-  return <RouterProvider router={router} />;
+  return (
+    <UserProvider>
+      <RouterProvider router={router} />
+    </UserProvider>
+  );
 }
 
 export default App;

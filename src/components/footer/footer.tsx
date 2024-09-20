@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import './Footer.scss';
 
@@ -41,19 +43,19 @@ const Footer: React.FC = () => {
           <h4>THANH TOÁN</h4>
           <div className="payment-icons">
             <ul>
-              <li><img src="./img/Visa.jpg" alt="Visa" /><img src="./img/MasterCard.jpg" alt="MasterCard" /><img src="./img/JCB.jpg" alt="JCB" /></li>
-              <li><img src="./img/AmericanExpress.jpg" alt="American Express" /><img src="./img/cod.jpg" alt="COD" /><img src="./img/TraGop.jpg" alt="Trả Góp" /></li>
-              <li><img src="./img/pay.jpg" alt="Pay" /><img src="./img/spaylater.jpg" alt="Spaylater" /></li>
+              <li><img src="./img/img/Visa.jpg" alt="Visa" /><img src="./img/img/MasterCard.jpg" alt="MasterCard" /><img src="./img/img/JCB.jpg" alt="JCB" /></li>
+              <li><img src="./img/img/AmericanExpress.jpg" alt="American Express" /><img src="./img/img/cod.jpg" alt="COD" /><img src="./img/img/TraGop.jpg" alt="Trả Góp" /></li>
+              <li><img src="./img/img/pay.jpg" alt="Pay" /><img src="./img/img/spaylater.jpg" alt="Spaylater" /></li>
             </ul>
           </div>
           <h4>ĐƠN VỊ VẬN CHUYỂN</h4>
           <div className="shipping-icons">
             <ul>
-              <li><img src="./img/spx.jpg" alt="SPX" /><img src="./img/GHTK.jpg" alt="GHTK" /><img src="./img/GiaoHangNhanh.jpg" alt="Giao Hàng Nhanh" /></li>
-              <li><img src="./img/viettelpost.jpg" alt="Viettel Post" /><img src="./img/vietnampost.jpg" alt="Vietnam Post" /><img src="./img/J&T.jpg" alt="J&T" /></li>
-              <li><img src="./img/grap.jpg" alt="Grap" /><img src="./img/ninjavan.jpg" alt="Ninja Van" /><img src="./img/best.jpg" alt="Best" /></li>
-              <li><img src="./img/be.jpg" alt="Be" /><img src="./img/ahamove.jpg" alt="Ahamove" /></li>
-            </ul>
+              <li><img src="./img/img/spx.jpg" alt="SPX" /><img src="./img/img/GHTK.jpg" alt="GHTK" /><img src="./img/img/GiaoHangNhanh.jpg" alt="Giao Hàng Nhanh" /></li>
+              <li><img src="./img/img/viettelpost.jpg" alt="Viettel Post" /><img src="./img/img/vietnampost.jpg" alt="Vietnam Post" /><img src="./img/J&T.jpg" alt="J&T" /></li>
+              <li><img src="./img/img/grap.jpg" alt="Grap" /><img src="./img/img/ninjavan.jpg" alt="Ninja Van" /><img src="./img/img/best.jpg" alt="Best" /></li>
+              <li><img src="./img/img/be.jpg" alt="Be" /><img src="./img/img/ahamove.jpg" alt="Ahamove" /></li>
+</ul>
           </div>
         </div>
 
@@ -61,9 +63,9 @@ const Footer: React.FC = () => {
 <div className="footer-column">
           <h4>THEO DÕI CHÚNG TÔI TRÊN</h4>
           <ul>
-            <li><img src="./img/facebook.jpg" alt="Facebook" /><a href="https://facebook.com">Facebook</a></li>
-            <li><img src="./img/instegram.jpg" alt="Instagram" /><a href="https://instagram.com">Instagram</a></li>
-            <li><img src="./img/in.jpg" alt="LinkedIn" /><a href="https://linkedin.com">LinkedIn</a></li>
+            <li><img src="./img/img/facebook.jpg" alt="Facebook" /><a href="https://facebook.com">Facebook</a></li>
+            <li><img src="./img/img/instegram.jpg" alt="Instagram" /><a href="https://instagram.com">Instagram</a></li>
+            <li><img src="./img/img/in.jpg" alt="LinkedIn" /><a href="https://linkedin.com">LinkedIn</a></li>
           </ul>
         </div>
 
@@ -72,12 +74,12 @@ const Footer: React.FC = () => {
           <h4>TẢI ỨNG DỤNG SHOPEE NGAY</h4>
           <div className="app-links">
             <div>
-              <img src="./img/QR.jpg" alt="QR Code" className="qr-code" />
+              <img src="./img/img/QR.jpg" alt="QR Code" className="qr-code" />
             </div>
             <div className="app-links">
-              <a href="https://appstore.com"><img src="./img/AppStore1.jpg" alt="App Store" /></a>
-              <a href="https://play.google.com"><img src="./img/googleplay1.jpg" alt="Google Play" /></a>
-              <a href="https://play.google.com"><img src="./img/appgallery.jpg" alt="App Gallery" /></a>
+              <a href="https://appstore.com"><img src="./img/img/AppStore1.jpg" alt="App Store" /></a>
+              <a href="https://play.google.com"><img src="./img/img/googleplay1.jpg" alt="Google Play" /></a>
+              <a href="https://play.google.com"><img src="./img/img/appgallery.jpg" alt="App Gallery" /></a>
             </div>
           </div>
         </div>
